@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".QuestionActivity"></activity>
+        <activity android:name=".ProgressJob"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".QuestionActivity" />
         <activity android:name=".Result" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".CourotineActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
