@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".ProgressJob"></activity>
+        <activity android:name=".Binding.BindingActivity"></activity>
+        <activity android:name=".ProgressJob" />
         <activity android:name=".MainActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".Result" />
